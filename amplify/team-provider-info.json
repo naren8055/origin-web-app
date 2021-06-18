@@ -61,5 +61,26 @@
                 }
             }
         }
+    },
+    "new": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-orionwebapp-new-192817-authRole",
+            "UnauthRoleArn": "arn:aws:iam::455068402658:role/amplify-orionwebapp-new-192817-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::455068402658:role/amplify-orionwebapp-new-192817-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "amplify-orionwebapp-new-192817-deployment",
+            "UnauthRoleName": "amplify-orionwebapp-new-192817-unauthRole",
+            "StackName": "amplify-orionwebapp-new-192817",
+            "StackId": "arn:aws:cloudformation:us-west-2:455068402658:stack/amplify-orionwebapp-new-192817/419eca00-d03d-11eb-af49-02f4eabf161f",
+            "AmplifyAppId": "ds3njnzxwswa6"
+        },
+        "categories": {
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "ds3njnzxwswa6",
+                    "type": "cicd"
+                }
+            }
+        }
     }
 }
