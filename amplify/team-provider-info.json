@@ -1,44 +1,65 @@
 {
-  "dev": {
-    "awscloudformation": {
-      "AuthRoleName": "amplify-orionwebapp-dev-181009-authRole",
-      "UnauthRoleArn": "arn:aws:iam::455068402658:role/amplify-orionwebapp-dev-181009-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::455068402658:role/amplify-orionwebapp-dev-181009-authRole",
-      "Region": "us-east-1",
-      "DeploymentBucketName": "amplify-orionwebapp-dev-181009-deployment",
-      "UnauthRoleName": "amplify-orionwebapp-dev-181009-unauthRole",
-      "StackName": "amplify-orionwebapp-dev-181009",
-      "StackId": "arn:aws:cloudformation:us-east-1:455068402658:stack/amplify-orionwebapp-dev-181009/5569c770-d032-11eb-b2ab-12c9a8da122f",
-      "AmplifyAppId": "d2th67ehh7h9be"
-    },
-    "categories": {
-      "hosting": {
-        "amplifyhosting": {
-          "appId": "d2th67ehh7h9be",
-          "type": "cicd"
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-orionwebapp-dev-181009-authRole",
+            "UnauthRoleArn": "arn:aws:iam::455068402658:role/amplify-orionwebapp-dev-181009-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::455068402658:role/amplify-orionwebapp-dev-181009-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-orionwebapp-dev-181009-deployment",
+            "UnauthRoleName": "amplify-orionwebapp-dev-181009-unauthRole",
+            "StackName": "amplify-orionwebapp-dev-181009",
+            "StackId": "arn:aws:cloudformation:us-east-1:455068402658:stack/amplify-orionwebapp-dev-181009/5569c770-d032-11eb-b2ab-12c9a8da122f",
+            "AmplifyAppId": "d2th67ehh7h9be"
+        },
+        "categories": {
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "d2th67ehh7h9be",
+                    "type": "cicd"
+                }
+            }
         }
-      }
-    }
-  },
-  "prod": {
-    "awscloudformation": {
-      "AuthRoleName": "amplify-orionwebapp-prod-183622-authRole",
-      "UnauthRoleArn": "arn:aws:iam::455068402658:role/amplify-orionwebapp-prod-183622-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::455068402658:role/amplify-orionwebapp-prod-183622-authRole",
-      "Region": "us-east-1",
-      "DeploymentBucketName": "amplify-orionwebapp-prod-183622-deployment",
-      "UnauthRoleName": "amplify-orionwebapp-prod-183622-unauthRole",
-      "StackName": "amplify-orionwebapp-prod-183622",
-      "StackId": "arn:aws:cloudformation:us-east-1:455068402658:stack/amplify-orionwebapp-prod-183622/fd2c8710-d035-11eb-a3d0-122c900fa557",
-      "AmplifyAppId": "d2th67ehh7h9be"
     },
-    "categories": {
-      "hosting": {
-        "amplifyhosting": {
-          "appId": "d2th67ehh7h9be",
-          "type": "cicd"
+    "prod": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-orionwebapp-prod-183622-authRole",
+            "UnauthRoleArn": "arn:aws:iam::455068402658:role/amplify-orionwebapp-prod-183622-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::455068402658:role/amplify-orionwebapp-prod-183622-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-orionwebapp-prod-183622-deployment",
+            "UnauthRoleName": "amplify-orionwebapp-prod-183622-unauthRole",
+            "StackName": "amplify-orionwebapp-prod-183622",
+            "StackId": "arn:aws:cloudformation:us-east-1:455068402658:stack/amplify-orionwebapp-prod-183622/fd2c8710-d035-11eb-a3d0-122c900fa557",
+            "AmplifyAppId": "d2th67ehh7h9be"
+        },
+        "categories": {
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "d2th67ehh7h9be",
+                    "type": "cicd"
+                }
+            }
         }
-      }
+    },
+    "staging": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-orionwebapp-staging-190753-authRole",
+            "UnauthRoleArn": "arn:aws:iam::455068402658:role/amplify-orionwebapp-staging-190753-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::455068402658:role/amplify-orionwebapp-staging-190753-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-orionwebapp-staging-190753-deployment",
+            "UnauthRoleName": "amplify-orionwebapp-staging-190753-unauthRole",
+            "StackName": "amplify-orionwebapp-staging-190753",
+            "StackId": "arn:aws:cloudformation:us-east-1:455068402658:stack/amplify-orionwebapp-staging-190753/64948e30-d03a-11eb-903f-0ea1c0ab8f7b",
+            "AmplifyAppId": "d2th67ehh7h9be"
+        },
+        "categories": {
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "d2th67ehh7h9be",
+                    "type": "cicd"
+                }
+            }
+        }
     }
-  }
 }
