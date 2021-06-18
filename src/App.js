@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload hello world.
+        A Web Application with AWS Cognito Authentication built on Amplify Framework
         </p>
         <a
           className="App-link"
