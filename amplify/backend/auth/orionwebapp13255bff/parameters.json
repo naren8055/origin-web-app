@@ -2,5 +2,5 @@
   "authSelections": "identityPoolAndUserPool",
   "resourceName": "orionwebapp13255bff",
   "serviceType": "imported",
-  "region": "us-west-2"
+  "region": "us-east-1"
 }

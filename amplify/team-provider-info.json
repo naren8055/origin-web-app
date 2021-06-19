@@ -1,101 +1,137 @@
 {
-  "dev": {
-    "awscloudformation": {
-      "AuthRoleName": "amplify-orionwebapp-dev-181009-authRole",
-      "UnauthRoleArn": "arn:aws:iam::455068402658:role/amplify-orionwebapp-dev-181009-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::455068402658:role/amplify-orionwebapp-dev-181009-authRole",
-      "Region": "us-east-1",
-      "DeploymentBucketName": "amplify-orionwebapp-dev-181009-deployment",
-      "UnauthRoleName": "amplify-orionwebapp-dev-181009-unauthRole",
-      "StackName": "amplify-orionwebapp-dev-181009",
-      "StackId": "arn:aws:cloudformation:us-east-1:455068402658:stack/amplify-orionwebapp-dev-181009/5569c770-d032-11eb-b2ab-12c9a8da122f",
-      "AmplifyAppId": "d2th67ehh7h9be"
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-orionwebapp-dev-181009-authRole",
+            "UnauthRoleArn": "arn:aws:iam::455068402658:role/amplify-orionwebapp-dev-181009-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::455068402658:role/amplify-orionwebapp-dev-181009-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-orionwebapp-dev-181009-deployment",
+            "UnauthRoleName": "amplify-orionwebapp-dev-181009-unauthRole",
+            "StackName": "amplify-orionwebapp-dev-181009",
+            "StackId": "arn:aws:cloudformation:us-east-1:455068402658:stack/amplify-orionwebapp-dev-181009/5569c770-d032-11eb-b2ab-12c9a8da122f",
+            "AmplifyAppId": "d2th67ehh7h9be"
+        },
+        "categories": {
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "d2th67ehh7h9be",
+                    "type": "cicd"
+                }
+            }
+        }
     },
-    "categories": {
-      "hosting": {
-        "amplifyhosting": {
-          "appId": "d2th67ehh7h9be",
-          "type": "cicd"
+    "prod": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-orionwebapp-prod-183622-authRole",
+            "UnauthRoleArn": "arn:aws:iam::455068402658:role/amplify-orionwebapp-prod-183622-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::455068402658:role/amplify-orionwebapp-prod-183622-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-orionwebapp-prod-183622-deployment",
+            "UnauthRoleName": "amplify-orionwebapp-prod-183622-unauthRole",
+            "StackName": "amplify-orionwebapp-prod-183622",
+            "StackId": "arn:aws:cloudformation:us-east-1:455068402658:stack/amplify-orionwebapp-prod-183622/fd2c8710-d035-11eb-a3d0-122c900fa557",
+            "AmplifyAppId": "d2th67ehh7h9be"
+        },
+        "categories": {
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "d2th67ehh7h9be",
+                    "type": "cicd"
+                }
+            }
         }
-      }
-    }
-  },
-  "prod": {
-    "awscloudformation": {
-      "AuthRoleName": "amplify-orionwebapp-prod-183622-authRole",
-      "UnauthRoleArn": "arn:aws:iam::455068402658:role/amplify-orionwebapp-prod-183622-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::455068402658:role/amplify-orionwebapp-prod-183622-authRole",
-      "Region": "us-east-1",
-      "DeploymentBucketName": "amplify-orionwebapp-prod-183622-deployment",
-      "UnauthRoleName": "amplify-orionwebapp-prod-183622-unauthRole",
-      "StackName": "amplify-orionwebapp-prod-183622",
-      "StackId": "arn:aws:cloudformation:us-east-1:455068402658:stack/amplify-orionwebapp-prod-183622/fd2c8710-d035-11eb-a3d0-122c900fa557",
-      "AmplifyAppId": "d2th67ehh7h9be"
     },
-    "categories": {
-      "hosting": {
-        "amplifyhosting": {
-          "appId": "d2th67ehh7h9be",
-          "type": "cicd"
+    "staging": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-orionwebapp-staging-190753-authRole",
+            "UnauthRoleArn": "arn:aws:iam::455068402658:role/amplify-orionwebapp-staging-190753-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::455068402658:role/amplify-orionwebapp-staging-190753-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-orionwebapp-staging-190753-deployment",
+            "UnauthRoleName": "amplify-orionwebapp-staging-190753-unauthRole",
+            "StackName": "amplify-orionwebapp-staging-190753",
+            "StackId": "arn:aws:cloudformation:us-east-1:455068402658:stack/amplify-orionwebapp-staging-190753/64948e30-d03a-11eb-903f-0ea1c0ab8f7b",
+            "AmplifyAppId": "d2th67ehh7h9be"
+        },
+        "categories": {
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "d2th67ehh7h9be",
+                    "type": "cicd"
+                }
+            }
         }
-      }
-    }
-  },
-  "staging": {
-    "awscloudformation": {
-      "AuthRoleName": "amplify-orionwebapp-staging-190753-authRole",
-      "UnauthRoleArn": "arn:aws:iam::455068402658:role/amplify-orionwebapp-staging-190753-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::455068402658:role/amplify-orionwebapp-staging-190753-authRole",
-      "Region": "us-east-1",
-      "DeploymentBucketName": "amplify-orionwebapp-staging-190753-deployment",
-      "UnauthRoleName": "amplify-orionwebapp-staging-190753-unauthRole",
-      "StackName": "amplify-orionwebapp-staging-190753",
-      "StackId": "arn:aws:cloudformation:us-east-1:455068402658:stack/amplify-orionwebapp-staging-190753/64948e30-d03a-11eb-903f-0ea1c0ab8f7b",
-      "AmplifyAppId": "d2th67ehh7h9be"
     },
-    "categories": {
-      "hosting": {
-        "amplifyhosting": {
-          "appId": "d2th67ehh7h9be",
-          "type": "cicd"
+    "new": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-orionwebapp-new-192817-authRole",
+            "UnauthRoleArn": "arn:aws:iam::455068402658:role/amplify-orionwebapp-new-192817-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::455068402658:role/amplify-orionwebapp-new-192817-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "amplify-orionwebapp-new-192817-deployment",
+            "UnauthRoleName": "amplify-orionwebapp-new-192817-unauthRole",
+            "StackName": "amplify-orionwebapp-new-192817",
+            "StackId": "arn:aws:cloudformation:us-west-2:455068402658:stack/amplify-orionwebapp-new-192817/419eca00-d03d-11eb-af49-02f4eabf161f",
+            "AmplifyAppId": "ds3njnzxwswa6"
+        },
+        "categories": {
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "ds3njnzxwswa6",
+                    "type": "cicd"
+                }
+            },
+            "auth": {
+                "orionwebapp13255bff": {
+                    "userPoolId": "us-east-1_GcyB7MbbI",
+                    "userPoolName": "Default",
+                    "webClientId": "1uoaumnpf08gauolvebdjmakb",
+                    "nativeClientId": "74q6d1e1dsgfbqc15vp4n34g5r",
+                    "identityPoolId": "us-east-1:7101d23b-cb67-4196-bf98-fb522c6bd4bd",
+                    "identityPoolName": "Default",
+                    "allowUnauthenticatedIdentities": false,
+                    "authRoleArn": "arn:aws:iam::455068402658:role/Cognito_DefaultAuth_Role",
+                    "authRoleName": "Cognito_DefaultAuth_Role",
+                    "unauthRoleArn": "arn:aws:iam::455068402658:role/Cognito_DefaultUnauth_Role",
+                    "unauthRoleName": "Cognito_DefaultUnauth_Role"
+                }
+            }
         }
-      }
-    }
-  },
-  "new": {
-    "awscloudformation": {
-      "AuthRoleName": "amplify-orionwebapp-new-192817-authRole",
-      "UnauthRoleArn": "arn:aws:iam::455068402658:role/amplify-orionwebapp-new-192817-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::455068402658:role/amplify-orionwebapp-new-192817-authRole",
-      "Region": "us-west-2",
-      "DeploymentBucketName": "amplify-orionwebapp-new-192817-deployment",
-      "UnauthRoleName": "amplify-orionwebapp-new-192817-unauthRole",
-      "StackName": "amplify-orionwebapp-new-192817",
-      "StackId": "arn:aws:cloudformation:us-west-2:455068402658:stack/amplify-orionwebapp-new-192817/419eca00-d03d-11eb-af49-02f4eabf161f",
-      "AmplifyAppId": "ds3njnzxwswa6"
     },
-    "categories": {
-      "hosting": {
-        "amplifyhosting": {
-          "appId": "ds3njnzxwswa6",
-          "type": "cicd"
+    "test": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-orionwebapp-test-175923-authRole",
+            "UnauthRoleArn": "arn:aws:iam::455068402658:role/amplify-orionwebapp-test-175923-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::455068402658:role/amplify-orionwebapp-test-175923-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-orionwebapp-test-175923-deployment",
+            "UnauthRoleName": "amplify-orionwebapp-test-175923-unauthRole",
+            "StackName": "amplify-orionwebapp-test-175923",
+            "StackId": "arn:aws:cloudformation:us-east-1:455068402658:stack/amplify-orionwebapp-test-175923/fe044960-d0f9-11eb-8d00-0edd3867f3f1",
+            "AmplifyAppId": "d2th67ehh7h9be"
+        },
+        "categories": {
+            "auth": {
+                "orionwebapp13255bff": {
+                    "userPoolId": "us-east-1_GcyB7MbbI",
+                    "userPoolName": "Default",
+                    "webClientId": "1uoaumnpf08gauolvebdjmakb",
+                    "nativeClientId": "74q6d1e1dsgfbqc15vp4n34g5r",
+                    "identityPoolId": "us-east-1:7101d23b-cb67-4196-bf98-fb522c6bd4bd",
+                    "identityPoolName": "Default",
+                    "allowUnauthenticatedIdentities": false,
+                    "authRoleArn": "arn:aws:iam::455068402658:role/Cognito_DefaultAuth_Role",
+                    "authRoleName": "Cognito_DefaultAuth_Role",
+                    "unauthRoleArn": "arn:aws:iam::455068402658:role/Cognito_DefaultUnauth_Role",
+                    "unauthRoleName": "Cognito_DefaultUnauth_Role"
+                }
+            },
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "d2th67ehh7h9be",
+                    "type": "cicd"
+                }
+            }
         }
-      },
-      "auth": {
-        "orionwebapp13255bff": {
-          "userPoolId": "us-east-1_GcyB7MbbI",
-          "userPoolName": "Default",
-          "webClientId": "1uoaumnpf08gauolvebdjmakb",
-          "nativeClientId": "74q6d1e1dsgfbqc15vp4n34g5r",
-          "identityPoolId": "us-east-1:7101d23b-cb67-4196-bf98-fb522c6bd4bd",
-          "identityPoolName": "Default",
-          "allowUnauthenticatedIdentities": false,
-          "authRoleArn": "arn:aws:iam::455068402658:role/Cognito_DefaultAuth_Role",
-          "authRoleName": "Cognito_DefaultAuth_Role",
-          "unauthRoleArn": "arn:aws:iam::455068402658:role/Cognito_DefaultUnauth_Role",
-          "unauthRoleName": "Cognito_DefaultUnauth_Role"
-        }
-      }
     }
-  }
 }
