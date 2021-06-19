@@ -8,8 +8,8 @@ Amplify.configure(awsconfig);
 const App = () => (
   <AmplifyAuthenticator>
     <div>
-      <h1> Welcome! You have successfully logged in. </h1>
-      <h5> This is a Web Application with AWS Cognito Authentication built on Amplify Framework</h5>
+      <h1> Welcome! You have successfully logged into the ORION WEB APPLICATION. </h1>
+      <h5> This is a Web Application with AWS Cognito Authentication built on React + Amplify Framework</h5>
       <AmplifySignOut />
     </div>
   </AmplifyAuthenticator>
