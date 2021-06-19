@@ -5,5 +5,14 @@
       "type": "cicd",
       "lastPushTimeStamp": "2021-06-18T12:58:14.203Z"
     }
+  },
+  "auth": {
+    "orionwebapp13255bff": {
+      "service": "Cognito",
+      "serviceType": "imported",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
   }
 }
